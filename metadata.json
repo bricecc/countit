@@ -1,0 +1,5 @@
+{
+  "name": "CountIt",
+  "description": "A smart, portable tracking app to count habits, events, and things. Features data portability.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Database (Do not commit local data)
+*.db
+*.sqlite
+
+# Environment variables (API Keys)
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
