@@ -1,35 +1,20 @@
-# CountIt
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-CountIt is a smart, portable tracking web application that allows you to count habits, events, and items. It features local guest mode, cloud synchronization via a lightweight backend, and multi-language support (English, French, German).
+# Run and deploy your AI Studio app
 
-## Features
+This contains everything you need to run your app locally.
 
-- **Counters**: Create customizable counters with colors and categories.
-- **History Tracking**: Optionally track the exact timestamp of every count.
-- **Data Portability**: Import/Export your data as JSON at any time.
-- **Dual Mode**: 
-  - **Local Mode**: Works entirely in the browser using LocalStorage.
-  - **Cloud Sync**: Sign in to sync data to a SQLite backend.
-- **Internationalization**: Fully translated into English, French, and German.
+View your app in AI Studio: https://ai.studio/apps/drive/16R4Gg0LuJfWRYTiH1VjYuiNQIgbcOTMm
 
-## Setup
+## Run Locally
 
-1. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+**Prerequisites:**  Node.js
 
-2. **Start the Server**
-   ```bash
-   npm start
-   ```
-   The backend runs on `http://localhost:3001`.
 
-3. **Run the Frontend**
-   Serve the root directory using a static file server (e.g., Live Server, `npx serve`, or open `index.html` via a local server setup).
-
-## Technologies
-
-- **Frontend**: React 19 (via ESM imports), Tailwind CSS, Lucide Icons (SVG).
-- **Backend**: Node.js, Express, SQLite3.
-- **Auth**: JWT, bcrypt.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
